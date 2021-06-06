@@ -1,3 +1,7 @@
+.body{
+  background-color: #ffffc7;
+}
+
 .App{
   box-sizing: border-box;
   margin: 0;
@@ -35,3 +39,4 @@
   margin: auto;
   width: 15%;
 }
+

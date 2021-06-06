@@ -1,0 +1,29 @@
+.sidebarArea {
+  background-color: #a9f1df;
+    position: sticky;
+    left: 0;
+    top: 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px;
+  }
+
+  .sidebarArea label{
+    margin-left: 5px;
+  }
+  
+  .categoryFilter, .brandFilter, .typeFilter, .availabilityFilter, .shippingFilter, .priceFilter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .priceFilter input{
+    width: 25%;
+    margin: 5px;
+  }
+
+  .priceFilter button{
+    width: 50%;
+    margin: 0 auto;
+  }
+  
