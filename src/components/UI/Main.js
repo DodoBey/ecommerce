@@ -1612,6 +1612,8 @@ const Main = () => {
             }
         ]
 
+        // This is an example
+        console.log("this is an example")
         console.log(products)
 return (
     <Router>
