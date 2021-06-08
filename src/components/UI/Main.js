@@ -1618,7 +1618,7 @@ return (
         <Header/>
         <Switch>
             <Route exact path="/">
-                <HomePage products = {products}/>
+                <HomePage product = {products}/>
             </Route>
             <Route path="/allproducts" component={AllProducts}>
                 <AllProducts products = {products}/>
