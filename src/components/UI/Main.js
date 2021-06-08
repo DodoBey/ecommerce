@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AllProducts from "../Category/AllProducts";
 import Header from '../Header';
-import Footer from '../Footer';
-import Detail from '../Detail';
+import Footer from '../Footer/Footer';
+import Detail from '../Detail/Details';
 import HomePage from '../HomePage';
 import './Main.css';
 
