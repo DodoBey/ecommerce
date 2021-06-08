@@ -1,4 +1,10 @@
-import List from "../List";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AllProducts from "../Category/AllProducts";
+import Header from '../Header';
+import Footer from '../Footer';
+import Detail from '../Detail';
+import HomePage from '../HomePage';
 import './Main.css';
 
 
@@ -1608,10 +1614,22 @@ const Main = () => {
 
         console.log(products)
 return (
-    <>
-    <List products = {products}/>
-    </>
-)
+    <Router>
+        <Header/>
+        <Switch>
+            <Route exact path="/">
+                <HomePage products = {products}/>
+            </Route>
+            <Route path="/allproducts" component={AllProducts}>
+                <AllProducts products = {products}/>
+            </Route>
+            <Route path="/detail">
+                <Detail products = {products}/>
+            </Route>
+        </Switch>
+        <Footer/>
+    </Router>  
+    );
 }
 
 export default Main;

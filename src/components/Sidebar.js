@@ -1,5 +1,10 @@
-import './Sidebar.css'
+import {useState} from 'react';
+import { NavItem } from 'react-bootstrap';
+import './Sidebar.css';
+
+
 const Sidebar = (props) => {
+    const [isChecked, setIsChecked] = useState()
 
     const categories = Object.values(
         props.products.reduce((a, c) => {
@@ -32,11 +37,20 @@ const Sidebar = (props) => {
         }, {})
     );
 
+    const handleCheck = (e) => {
+        setIsChecked({
+            ...isChecked,
+            [e.target.name]: e.target.checked
+        });
+        console.log("checkedItems:", isChecked)
+    }
+
+
 
     const categorieArea = categories.sort((a, b) => a.category.localeCompare(b.category)).map(allcategories => {
         return (
             <div>
-                <input type="checkbox" name={allcategories.category} id={allcategories.category} />
+                <input type="checkbox" onChange={handleCheck} name={allcategories.category} id={allcategories.category} />
                 <label htmlFor={allcategories.category}>{allcategories.category}</label>
             </div>
         )
