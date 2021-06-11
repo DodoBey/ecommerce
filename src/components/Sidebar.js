@@ -13,15 +13,16 @@ const Sidebar = (props) => {
         }, {})
     );
 
+    let myBrand = props.products.filter(test => test.brand !== "Books");
+    console.log(myBrand)
+
     const brands = Object.values(
-        props.products.reduce((a, c) => {
-            a[c.brand] = c;
+        myBrand.reduce((a, c) => {
+            a[c.brand] = c ;
             return a
         }, {})
     );
 
-    let myBrand = Object.values(brands).filter(asd => { return asd !== "author"});
-    console.log(myBrand)
 
     const types = Object.values(
         props.products.reduce((a, c) => {

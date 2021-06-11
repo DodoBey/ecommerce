@@ -553,6 +553,7 @@ const Main = () => {
             {
                 id: "b1",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -566,6 +567,7 @@ const Main = () => {
             {
                 id: "b2",
                 author: "Ursula K. Le Guin",
+                brand: "Books",
                 name: "The Dispossessed: A Novel",
                 type: "Paperback",
                 price: "16.99$",
@@ -579,6 +581,7 @@ const Main = () => {
             {
                 id: "b3",
                 author: "J. R. R. Tolkien",
+                brand: "Books",
                 name: "The Lord of the Rings - Special edition",
                 type: "Hardcover",
                 price: "199$",
@@ -592,6 +595,7 @@ const Main = () => {
             {
                 id: "b4",
                 author: "J.K. Rowling",
+                brand: "Books",
                 name: "Harry Potter: The Complete Collection (1-7)",
                 type: "E-Book",
                 price: "69$",
@@ -605,6 +609,7 @@ const Main = () => {
             {
                 id: "b5",
                 author: "Alan Moore",
+                brand: "Books",
                 name: "V for Vendetta",
                 type: "E-Book",
                 price: "19$",
@@ -618,6 +623,7 @@ const Main = () => {
             {
                 id: "b6",
                 author: "Jean-Christophe Grange",
+                brand: "Books",
                 name: "The Empire of the Wolves: A Novel",
                 type: "Paperback",
                 price: "299$",
@@ -631,6 +637,7 @@ const Main = () => {
             {
                 id: "b7",
                 author: "George Orwell",
+                brand: "Books",
                 name: "1984",
                 type: "E-Book",
                 price: "9.99$",
@@ -644,6 +651,7 @@ const Main = () => {
             {
                 id: "b8",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -657,6 +665,7 @@ const Main = () => {
             {
                 id: "b9",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -670,6 +679,7 @@ const Main = () => {
             {
                 id: "b10",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -683,6 +693,7 @@ const Main = () => {
             {
                 id: "b11",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -696,6 +707,7 @@ const Main = () => {
             {
                 id: "b12",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -709,6 +721,7 @@ const Main = () => {
             {
                 id: "b13",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -722,6 +735,7 @@ const Main = () => {
             {
                 id: "b14",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -735,6 +749,7 @@ const Main = () => {
             {
                 id: "b15",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -748,6 +763,7 @@ const Main = () => {
             {
                 id: "b16",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -761,6 +777,7 @@ const Main = () => {
             {
                 id: "b17",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -774,6 +791,7 @@ const Main = () => {
             {
                 id: "b18",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -787,6 +805,7 @@ const Main = () => {
             {
                 id: "b19",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -800,6 +819,7 @@ const Main = () => {
             {
                 id: "b20",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1353,6 +1373,7 @@ const Main = () => {
             {
                 id: "s1",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1366,6 +1387,7 @@ const Main = () => {
             {
                 id: "s2",
                 author: "Ursula K. Le Guin",
+                brand: "Books",
                 name: "The Dispossessed: A Novel",
                 type: "Paperback",
                 price: "16.99$",
@@ -1379,6 +1401,7 @@ const Main = () => {
             {
                 id: "s3",
                 author: "J. R. R. Tolkien",
+                brand: "Books",
                 name: "The Lord of the Rings - Special edition",
                 type: "Hardcover",
                 price: "199$",
@@ -1392,6 +1415,7 @@ const Main = () => {
             {
                 id: "s4",
                 author: "J.K. Rowling",
+                brand: "Books",
                 name: "Harry Potter: The Complete Collection (1-7)",
                 type: "E-Book",
                 price: "69$",
@@ -1405,6 +1429,7 @@ const Main = () => {
             {
                 id: "s5",
                 author: "Alan Moore",
+                brand: "Books",
                 name: "V for Vendetta",
                 type: "E-Book",
                 price: "19$",
@@ -1418,6 +1443,7 @@ const Main = () => {
             {
                 id: "s6",
                 author: "Jean-Christophe Grange",
+                brand: "Books",
                 name: "The Empire of the Wolves: A Novel",
                 type: "Paperback",
                 price: "299$",
@@ -1431,6 +1457,7 @@ const Main = () => {
             {
                 id: "s7",
                 author: "George Orwell",
+                brand: "Books",
                 name: "1984",
                 type: "E-Book",
                 price: "9.99$",
@@ -1444,6 +1471,7 @@ const Main = () => {
             {
                 id: "s8",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1457,6 +1485,7 @@ const Main = () => {
             {
                 id: "s9",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1470,6 +1499,7 @@ const Main = () => {
             {
                 id: "s10",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1483,6 +1513,7 @@ const Main = () => {
             {
                 id: "s11",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1496,6 +1527,7 @@ const Main = () => {
             {
                 id: "s12",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1509,6 +1541,7 @@ const Main = () => {
             {
                 id: "s13",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1522,6 +1555,7 @@ const Main = () => {
             {
                 id: "s14",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1535,6 +1569,7 @@ const Main = () => {
             {
                 id: "s15",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1548,6 +1583,7 @@ const Main = () => {
             {
                 id: "s16",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1561,6 +1597,7 @@ const Main = () => {
             {
                 id: "s17",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1574,6 +1611,7 @@ const Main = () => {
             {
                 id: "s18",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1587,6 +1625,7 @@ const Main = () => {
             {
                 id: "s19",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
@@ -1600,6 +1639,7 @@ const Main = () => {
             {
                 id: "s20",
                 author: "Herbert George Wells",
+                brand: "Books",
                 name: "The H. G. Wells Collection: Deluxe 6-Volume Box Set Edition",
                 type: "Boxset",
                 price: "79$",
